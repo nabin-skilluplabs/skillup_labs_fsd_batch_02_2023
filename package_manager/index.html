@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhotoSwipe</title>
+    <link rel="stylesheet" href="./node_modules/photoswipe/dist/photoswipe.css">
+    <script type="module">
+        import PhotoSwipeLightbox from './node_modules/photoswipe/dist/photoswipe-lightbox.esm.js';
+        const lightbox = new PhotoSwipeLightbox({
+            gallery: '#portfolio',
+            children: 'a',
+            pswpModule: () => import('./node_modules/photoswipe/dist/photoswipe.esm.js')
+        });
+        lightbox.init();
+    </script>
+</head>
+
+<body>
+
+    <div class="pswp-gallery pswp-gallery--single-column" id="portfolio">
+        <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg" 
+          data-pswp-width="1669" 
+          data-pswp-height="2500" 
+          target="_blank">
+          <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg" alt="" />
+        </a>
+
+        <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg" 
+          data-pswp-width="1669" 
+          data-pswp-height="2500" 
+          target="_blank">
+          <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg" alt="" />
+        </a>
+
+        
+    </div>
+
+</body>
+
+</html>

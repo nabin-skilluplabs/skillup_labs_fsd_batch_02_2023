@@ -1,0 +1,14 @@
+{
+  "name": "package_manager",
+  "version": "1.0.0",
+  "description": "Learning Package Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nabin Singh",
+  "license": "ISC",
+  "dependencies": {
+    "photoswipe": "^5.4.3"
+  }
+}
