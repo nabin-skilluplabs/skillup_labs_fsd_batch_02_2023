@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "photoswipe": "^5.4.3"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
   }
 }
