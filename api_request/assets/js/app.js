@@ -40,3 +40,4 @@ async function loadJokes (){
     }else{
         poplateJoke(jokeData);
     }
+}
