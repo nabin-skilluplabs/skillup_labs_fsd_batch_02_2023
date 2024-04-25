@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script type="module">
-        import PhotoSwipeLightbox from './node_modules/photoswipe/dist/photoswipe-lightbox.esm.js';
+        import PhotoSwipeLightbox from '../node_modules/photoswipe/dist/photoswipe-lightbox.esm.js';
         const lightbox = new PhotoSwipeLightbox({
           gallery: '#gallery--getting-started',
           children: 'a',
-          pswpModule: () => import('./node_modules/photoswipe/dist/photoswipe.esm.js')
+          pswpModule: () => import('../node_modules/photoswipe/dist/photoswipe.esm.js')
         });
         lightbox.init();
         </script>
