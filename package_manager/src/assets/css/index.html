@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module">
+        import PhotoSwipeLightbox from '../node_modules/photoswipe/dist/photoswipe-lightbox.esm.js';
+        const lightbox = new PhotoSwipeLightbox({
+          gallery: '#gallery--getting-started',
+          children: 'a',
+          pswpModule: () => import('../node_modules/photoswipe/dist/photoswipe.esm.js')
+        });
+        lightbox.init();
+        </script>
+        <link rel="stylesheet" href="../node_modules/photoswipe/dist/photoswipe.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="output.css">
+</head>
+<body>
+  <h1 class="text-10xl text-red-500">Gallery</h1> 
+    <div class="pswp-gallery " id="gallery--getting-started">
+  <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg" 
+    data-pswp-width="1669" 
+    data-pswp-height="2500" 
+    target="_blank">
+    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg" alt="" />
+  </a>
+  <a href="https://plus.unsplash.com/premium_photo-1711438464037-ffc4f358fc23?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8" 
+    data-pswp-width="1669" 
+    data-pswp-height="2500" 
+    target="_blank">
+    <img src="https://plus.unsplash.com/premium_photo-1711438464037-ffc4f358fc23?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8" alt="" />
+  </a>
+   <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg" 
+    data-pswp-width="1669" 
+    data-pswp-height="2500" 
+    target="_blank">
+    <img src="https://images.unsplash.com/photo-1708261432863-41fdab7b5de9?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8" alt="" />
+  </a>
+    <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg" 
+    data-pswp-width="1669" 
+    data-pswp-height="2500" 
+    target="_blank">
+    <img src="https://images.unsplash.com/photo-1713528192259-c3514aa54224?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8" alt="" />
+  </a>
+    <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg" 
+    data-pswp-width="1669" 
+    data-pswp-height="2500" 
+    target="_blank">
+    <img src="https://images.unsplash.com/photo-1713252579588-641976f56ff5?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHx8" alt="" />
+  </a>
+  
+    </div>
+</body>
+</html>
