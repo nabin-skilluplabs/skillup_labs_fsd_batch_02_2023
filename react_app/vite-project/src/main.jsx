@@ -1,13 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import App from './App'
+import './index.css';
 import {
   createBrowserRouter,
   RouterProvider
 } from "react-router-dom";
-import JobReadyProgram from './pages/JobReadyProgram.jsx';
-import About from './pages/About.jsx';
+import JobReadyProgram from './pages/JobReadyProgram';
+import About from './pages/About';
+import Products from './pages/Products';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <About  />,
+  },
+  {
+    path: "/products",
+    element: <Products  />,
   },
 ]);
 

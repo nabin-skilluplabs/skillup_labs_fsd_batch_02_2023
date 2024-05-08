@@ -5,7 +5,8 @@ function Header() {
         <div>
             <Link to="/">Home</Link> |
             <Link to="/job-ready-program">Job Ready Program</Link> | 
-            <Link to="/About">About</Link>
+            <Link to="/about">About</Link> | 
+            <Link to="/products">Products</Link>
         </div>
     );
 }
