@@ -49,5 +49,5 @@ export default function SearchForm({setMovies, setQuery}) {
 
 SearchForm.propTypes = {
     setMovies: PropTypes.func,
-    setQuery: PropTypes.fun
+    setQuery: PropTypes.func
 }
