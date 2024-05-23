@@ -21,7 +21,7 @@ function App() {
     <div className="flex justify-center p-8">
       <div className="w-10/12">
         <h2 className=" text-3xl font-bold">Movie App</h2>
-        <SearchForm setQuery={setQuery} setMovies={setMovies} />
+        <SearchForm setQuery={setQuery} setMovies={setMovies} /> 
         {
                 query && <h2 className="text-2xl font-bold mt-4 tracking-tight text-gray-900">Search results for <strong>{query}</strong></h2>
             }
